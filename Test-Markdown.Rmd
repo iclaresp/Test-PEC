@@ -31,7 +31,7 @@ library(R.utils)
 
 # Presentación y objetivos
 
-Esta PEC trata de planificar y ejecutar una versión simplificada del proceso de análisis de datos ómicos, empleando diversas herramientas y métodos.
+Esta PEC trata de planificar y ejecutar una versión simplificada del proceso de análisis de datos ómicos, empleando diversas herramientas y métodos. 
 
 ## Resumen de objetivos
 
