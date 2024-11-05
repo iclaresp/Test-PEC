@@ -96,7 +96,7 @@ Cargamos los archivos:
 # Importamos el archivo features, que nos servirá de assay
 
 features <- read.csv("features.csv", sep = ';', row.names = 1)
-head(features, 5) # Visualizamos las primeras entradas de datos
+features[1:5, 1:5] # Visualizamos las primeras entradas de datos
 dim(features) # Comprobamos que las dimensiones correspondan con las esperadas
 
 ```
