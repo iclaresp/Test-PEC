@@ -1114,4 +1114,4 @@ Al visualizar la estructura de los datos y sus estadísticas, se pone en evidenc
 
 El principal inconveniente de estos análisis es que sólo nos están dando información a nivel de la muestra, es decir, resulta casi un informe cualitativo de los datos.
 
-Si queremos intentar sacar conclusiones de nuestros datos, requerimos de un análisis más exhaustivo.
+Si queremos intentar sacar conclusiones de nuestros datos, requerimos de un análisis más exhaustivo. 
