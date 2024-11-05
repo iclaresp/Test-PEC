@@ -1,0 +1,44 @@
+---
+title: "Test corto código PEC"
+author: "I. Clares"
+date: "2024-11-05"
+output: 
+ html_document:
+    code_folding: show
+    toc: true
+    toc_float: true
+    theme: spacelab
+    highlight: tango
+self_contained: true
+---
+
+```{r setup, include=FALSE, warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+library(Biobase)
+library(BiocManager)
+library(SummarizedExperiment)
+library(knitr)
+library(devtools)
+library(readxl)
+library(readr)
+library(tibble)
+library(dplyr)
+library(formatR)
+library(RCurl)
+library(R.utils)
+
+```
+
+# Presentación y objetivos
+
+Esta PEC trata de planificar y ejecutar una versión simplificada del proceso de análisis de datos ómicos, empleando diversas herramientas y métodos.
+
+## Resumen de objetivos
+
+El trabajo que se pretende desarrollar se resume en:
+
+1.  Seleccionar un dataset de metabolómica desde un repositorio de [github](https://github.com/nutrimetabolomics/metaboData/) o desde el repositorio de [Metabolomics Workbench](https://www.metabolomicsworkbench.org/).
+
+2.  Crear un contenedor del tipo `SummarizedExperiment` que contenga los datos y los metadatos (información acerca del *dataset*, las filas y las columnas).
+
