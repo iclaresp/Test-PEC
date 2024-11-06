@@ -9,6 +9,7 @@ output:
     toc_float: true
     theme: spacelab
     highlight: tango
+    keep_md: true
 self_contained: true
 ---
 
